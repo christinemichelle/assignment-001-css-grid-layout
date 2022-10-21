@@ -12,27 +12,43 @@
     text-align: center;
     gap: 5px;
     text-transform: uppercase;
+    color: white;
 }
 nav{
     background-color: #fe8515;
     grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 main{
     background-color: #8bf10a;
     border-radius: 10px;
     grid-area: main;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .leftsidebar{
     background-color: #7fc242;
     border-radius: 10px;
     grid-area: leftsidebar;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .rightsidebar{
     background-color: #7fc242;
     border-radius: 10px;
     grid-area:rightsidebar;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer{
     background-color: #f57e20;
     grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
