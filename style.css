@@ -1,0 +1,38 @@
+.wireframe{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 0.2fr 1.0fr 1.0fr 0.2fr;
+    grid-template-areas:
+       "nav nav nav nav"
+       "leftsidebar main main rightsidebar"
+       "leftsidebar main main rightsidebar"
+       "footer footer footer footer"
+    ;
+    text-align: center;
+    gap: 5px;
+    text-transform: uppercase;
+}
+nav{
+    background-color: #fe8515;
+    grid-area: nav;
+}
+main{
+    background-color: #8bf10a;
+    border-radius: 10px;
+    grid-area: main;
+}
+.leftsidebar{
+    background-color: #7fc242;
+    border-radius: 10px;
+    grid-area: leftsidebar;
+}
+.rightsidebar{
+    background-color: #7fc242;
+    border-radius: 10px;
+    grid-area:rightsidebar;
+}
+footer{
+    background-color: #f57e20;
+    grid-area: footer;
+}
